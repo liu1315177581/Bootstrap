@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<style>
+	/*.container{
+		width: 1000px;
+		border: 1px solid #000;
+	}*/
+	div[class*='col-']{
+		background: #000;
+		border: 1px solid red;
+		color: blue;
+		height: 50px;
+	}
+</style>
+<body>
+	<div class="container">
+		<!-- <div class="row">
+			<div class="col-lg-1">col-lg-1</div>
+			<div class="col-lg-11">col-lg-11</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3">col-lg-1</div>
+			<div class="col-lg-4">col-lg-11</div>
+		</div> -->
+		<div class="row">
+			<div class="col-lg-3 col-md-4 col-sm-6" >A</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">A</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">A</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">A</div>
+		</div>
+		
+	</div>
+</body>
+<script src='js/jquery-2.2.4.js'></script>
+<script src='js/bootstrap.js'></script>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<style>
+	/*.container{
+		width: 1000px;
+		border: 1px solid #000;
+	}*/
+	#login{
+		width: 400px;
+	}
+</style>
+<body>
+	<div class="container">
+		<div id="login" class=" panel panel-primary">
+			<div class="panel-heading">
+				Login
+			</div>
+			<div class="panel-body">
+				<!--<div class="form-group">-->
+					<label>用户名：</label><input type="text" class="form-control">
+					<div class="alert alert-warning">用户名不能为空</div>
+					<label>密码：</label><input type="password" class='form-control'>
+					<a href="#" class="text-info">忘记密码？</a>
+				<!--</div>-->
+				<input type="button" class="btn btn-primary pull-right" value="按钮">
+			</div>
+		</div>
+	</div>
+</body>
+<script src='js/jquery-2.2.4.js'></script>
+<script src='js/bootstrap.js'></script>
+</html>
